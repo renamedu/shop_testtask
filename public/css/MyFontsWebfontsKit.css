@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4042135, 2021-04-21T10:06:44-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TTFirsNeue-Regular by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-firs-neue/regular/
+ * 
+ * Webfont: TTFirsNeue-Medium by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-firs-neue/medium/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2018 by Typetype. Designer Ivan Gladkikh, technical designers Philipp Nurullin, Vika Usmanova, Nadyr Rakhimov, Marina Khodak. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3dad97");
+  
+@font-face {
+  font-family: "TTFirsNeue-Regular";
+  src: url('webFonts/TTFirsNeueRegular/font.woff2') format('woff2'), url('webFonts/TTFirsNeueRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTFirsNeue-Medium";
+  src: url('webFonts/TTFirsNeueMedium/font.woff2') format('woff2'), url('webFonts/TTFirsNeueMedium/font.woff') format('woff');
+}
+

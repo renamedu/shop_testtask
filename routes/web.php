@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'IndexController')->name('index');
+
 Route::group(['namespace' => 'User', 'prefix' => 'users'], function () {
     Route::get('/', 'IndexController')->name('user.index');
     Route::get('/create', 'CreateController')->name('user.create');
