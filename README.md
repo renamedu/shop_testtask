@@ -59,3 +59,21 @@
 `php artisan serve`
 
 Откройте сайт в браузере по адресу  `http://localhost:8000`
+
+Для использования функции отправки почты необходимо отредкаторвать поля в .env:
+
+`MAIL_MAILER=smtp`
+
+`MAIL_HOST=`
+
+`MAIL_PORT=`
+
+`MAIL_USERNAME=`
+
+`MAIL_PASSWORD=`
+
+`MAIL_ENCRYPTION=tls`
+
+`MAIL_FROM_ADDRESS=laravel_test.task@example.org`
+
+`MAIL_FROM_NAME=app_name`
